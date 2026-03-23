@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    margin-left: 1%;
+
+    /* Center the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Background */
+    background-image: url("luxury-pink-wallpaper-design-with-lotus-flowers-line-art-golden-texture-vector-watercolor-background_713496-592.avif");
+    background-size: cover;
+    background-position: center;
+
+    font-family: Arial, sans-serif;
+}
+
+/* Box styling */
+.box {
+    background: rgba(252, 157, 217, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    max-width: 400px;
+    
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e73370;
+}
